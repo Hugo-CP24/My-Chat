@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Chat</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="Login">
+        <h2>Login</h2>
+        <form class="Login_form">
+          <input
+            type="text"
+            class="login_input"
+            placeholder="Username"
+            required
+          />
+          <button type="submit" class="btn_login">Entrar</button>
+        </form>
+      </section>
+
+      <section class="chat">
+        <section class="chat__mensagem">
+        </section>
+
+        <form class="chat_form">
+          <input
+            type="text"
+            class="mensagem"
+            placeholder=" Digite a mensagem"
+            required
+          />
+          <button type="submit" class="btn_send">
+            <box-icon name="send" type="solid" color="#ffffff"
+              ><i class="bx bxs-send" style="color: #ffffff"></i
+            ></box-icon>
+          </button>
+        </form>
+      </section>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
